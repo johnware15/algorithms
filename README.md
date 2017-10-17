@@ -2,7 +2,7 @@
 Daily algorithm practice
 
 
-#### fizzBuzz
+[x] #### fizzBuzz
 
 Return an array of numbers from 1 to 100.
 
