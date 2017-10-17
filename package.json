@@ -1,0 +1,26 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Daily algorithm practice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnware15/algorithms.git"
+  },
+  "author": "johnware15",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnware15/algorithms/issues"
+  },
+  "homepage": "https://github.com/johnware15/algorithms#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
