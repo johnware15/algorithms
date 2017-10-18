@@ -1,5 +1,6 @@
 const expect = require('chai').expect
 const fizzBuzz = require('../src/fizzBuzz.js')
+const makeChange = require('../src/makeChange.js')
 
 
 describe('fizzBuzz', function() {
@@ -28,4 +29,8 @@ describe('fizzBuzz', function() {
     expect(fizzBuzz[20]).to.be.a('integer')
     }
   })
+})
+
+describe('makeChange', function() {
+  it('should ')
 })
