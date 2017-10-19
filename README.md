@@ -35,3 +35,21 @@ Daily algorithm practice
     makeChange({ price: 432, amountGiven: 500 })
     // => { quarters: 2, dimes: 1, nickels: 1, pennies: 3 }
     ```
+    
+    
+- [ ] #### isPalindrome
+
+    Determine if a string is a palindrome. Return `true` or `false`.
+
+    Ignore punctuation, spacing, and case sensitivity.
+
+        ```javascript
+        isPalindrome('radar')
+        // => true
+
+        isPalindrome('bananas')
+        // => false
+
+        isPalindrome('A man, a plan, a canal: Panama')
+        // => true
+        ```
