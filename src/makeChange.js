@@ -1,6 +1,6 @@
-function makeChange({price, amountGiven}) {
-  let changeObject = {'quarters': 0, 'dimes': 0, 'nickels': 0, 'pennies': 0}
+function makeChange(price, amountGiven) {
   let change = amountGiven - price
+  let changeObject = {'quarters': quarters, 'dimes': dimes, 'nickels': nickels, 'pennies': pennies}
 
   if(change >= 25) {
     Math.floor(change / 25)
@@ -27,5 +27,10 @@ function makeChange({price, amountGiven}) {
     changeObject.pennies = pennies
   }
 
+
+  console.log(changeObject)
+  console.log(makeChange)
   return changeObject
 }
+
+module.exports = makeChange
